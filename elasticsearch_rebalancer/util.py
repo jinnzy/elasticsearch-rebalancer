@@ -123,6 +123,7 @@ def get_shards(
             .get('allocation', {})
             .get('require', {})
         )
+
         if not matches_attrs(index_attrs, attrs):
             continue
 
